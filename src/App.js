@@ -22,7 +22,7 @@ function App() {
           setData(response.data.entries[0]);
         },
         (error) => {
-          // console.log(error);
+          console.log(error);
         }
       );
   }, [end_point]);
