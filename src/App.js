@@ -18,7 +18,6 @@ function App() {
       })
       .then(
         (response) => {
-          console.log(response.data.entries[0]);
           setData(response.data.entries[0]);
         },
         (error) => {
